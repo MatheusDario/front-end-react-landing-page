@@ -1,7 +1,11 @@
+import * as Style from './style';
+
 function Home() {
   return (
     <>
-      <p>Hello World!</p>
+      <Style.Container>
+        <p>Hello World!</p>
+      </Style.Container>
     </>
   );
 }
