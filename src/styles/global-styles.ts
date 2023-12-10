@@ -7,6 +7,6 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: skyblue;
+    background-color: ${({ theme }) => theme.colors.white};
   }
 `;
